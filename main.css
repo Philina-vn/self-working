@@ -1,0 +1,71 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background: #EE220C;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .uleft:hover {
+    background: #d1f59f;
+    z-index: 5;
+  }
+  .uright {
+    margin-left: 225px;
+    margin-top: -100px;
+    
+  }
+
+  .uright:hover {
+    background: #f29ff5;
+    z-index: 5;
+
+  }
+
+  .dleft {
+    margin-top: 125px;
+  }
+
+  .dleft:hover {
+      background: #9ae9f5;
+      z-index: 5;
+
+  }
+  
+  .dright {
+    margin-top: -100px;
+    margin-left: 225px;
+  }
+
+  .dright:hover {
+      background: #fff75c;
+      z-index: 5;
+  }
+
+  .square {
+    width: 225px;
+    height: 225px;
+    position: relative;
+    bottom: 275px;
+    left: 50px;
+    background: #00A2FF;
+    
+    
+  }
+
+  .square:hover {
+    z-index: 3;
+    background: #ca98eb;
+
+  }
+
+  .lilsquare {
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    background-color: #F8BA00;
+    position: relative;
+    bottom: 455px;
+    left: 95px;
+
+  }
